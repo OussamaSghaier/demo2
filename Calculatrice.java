@@ -11,4 +11,11 @@ public class Calculatrice{
         return a - b;
     }
 
+    public int division(int a, int b){
+        if (b == 0){
+            throw new ArithmeticException("Division par 0");
+        }
+        return a / b;
+    }
+
 }
