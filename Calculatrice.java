@@ -1,6 +1,9 @@
 public class Calculatrice{
     public static void main(String[] args){
         System.out.println("*** Calculatrice ***");
+        Calculatrice calculatrice = new Calculatrice();
+        System.out.println(calculatrice.addition(1, 5));
+        
     }
 
     public int addition(int a, int b){
