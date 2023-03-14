@@ -3,6 +3,7 @@ public class Calculatrice{
         System.out.println("*** Calculatrice ***");
         Calculatrice calculatrice = new Calculatrice();
         System.out.println(calculatrice.addition(1, 5));
+        System.out.println(calculatrice.addition(1, 8));
         
     }
 
