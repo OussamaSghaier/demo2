@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Calculatrice{
     public static void main(String[] args){
-        System.out.println("*** Calculatrice ***");
+        System.out.println("*** Menu Calculatrice ***");
         Calculatrice calculatrice = new Calculatrice();
         calculatrice.displayMenu();
 
