@@ -18,4 +18,8 @@ public class Calculatrice{
         return a / b;
     }
 
+    public int multiplication(int a, int b){
+        return a * b;
+    }
+
 }
